@@ -549,8 +549,23 @@ body {
 }
 
 .footer-subscribe-button {
-  width: 165px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
   height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--iris);
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-send-icon {
+  margin-left: 16px;
 }
 
 /* Portfolio */
