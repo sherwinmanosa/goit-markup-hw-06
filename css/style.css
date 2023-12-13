@@ -523,6 +523,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+.form-footer {
+  display: flex;
+  gap: 24px;
+}
 
 .subscribe-input-email {
   width: 264px;
@@ -548,7 +552,6 @@ body {
 }
 
 .footer-subscribe-button {
-  margin-left: 24px;
   width: 165px;
   height: 40px;
 }
