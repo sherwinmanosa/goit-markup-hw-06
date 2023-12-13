@@ -511,6 +511,45 @@ body {
   background-color: var(--green);
 }
 
+.footer-subscribe {
+  margin-left: 80px;
+  margin-top: 100px;
+  width: 453px;
+}
+.footer-subscribe-title {
+  color: var(--white);
+}
+
+.subscribe-input-email {
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  background: none;
+  margin-top: 16px;
+  border: none;
+  border-radius: 4px;
+  border: 1px solid var(--white);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-input-email::placeholder {
+  color: var(--white);
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.48px;
+  padding-left: 16px;
+  margin-top: 8px;
+}
+
+.footer-subscribe-button {
+  margin-left: 24px;
+  width: 165px;
+  height: 40px;
+}
+
 /* Portfolio */
 
 .portfolio-main .container {
