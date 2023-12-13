@@ -752,3 +752,10 @@ body {
   pointer-events: none;
   visibility: hidden;
 }
+
+.modal-container .p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
