@@ -804,3 +804,7 @@ body {
 #user-name:focus + .input-icon {
   fill: var(--iris);
 }
+
+.input-comment {
+  margin-bottom: 16px;
+}
