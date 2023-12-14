@@ -762,3 +762,6 @@ body {
   color: var(--navyblue);
   margin-bottom: 16px;
 }
+.input-area {
+  margin: 8px;
+}
