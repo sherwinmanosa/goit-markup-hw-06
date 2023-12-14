@@ -774,3 +774,7 @@ body {
   display: block;
   margin-bottom: 4px;
 }
+
+.input-area {
+  display: relative;
+}
