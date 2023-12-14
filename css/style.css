@@ -793,7 +793,7 @@ body {
   border-color: var(--iris);
 }
 
-.person-icondecor {
+.input-icon {
   position: absolute;
   left: 16px;
   top: 50%;
@@ -801,6 +801,6 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-#user-name:focus + .person-icondecor {
+#user-name:focus + .input-icon {
   fill: var(--iris);
 }
