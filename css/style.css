@@ -765,3 +765,12 @@ body {
 .input-container {
   margin: 8px;
 }
+
+.input-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--lightslate);
+  display: block;
+  margin-bottom: 4px;
+}
