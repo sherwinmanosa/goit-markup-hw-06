@@ -764,6 +764,7 @@ body {
 }
 .input-container {
   margin: 8px;
+  display: relative;
 }
 
 .input-label {
@@ -776,5 +777,4 @@ body {
 }
 
 .input-area {
-  display: relative;
 }
