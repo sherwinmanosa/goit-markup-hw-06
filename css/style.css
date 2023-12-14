@@ -792,3 +792,15 @@ body {
 #user-name:focus {
   border-color: var(--iris);
 }
+
+.person-icondecor {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#user-name:focus + .person-icondecor {
+  fill: var(--iris);
+}
