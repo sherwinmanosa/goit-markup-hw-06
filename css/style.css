@@ -831,18 +831,6 @@ body {
   margin-bottom: 24px;
 }
 
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .modal-label {
   display: block;
   font-size: 12px;
@@ -863,12 +851,12 @@ body {
   justify-content: center;
   fill: transparent;
 }
-/* .checkbox:checked + .ml-checkbox > .check-icon {
+.checkbox:checked + .ml-checkbox > .check-icon {
   background-color: var(--ocean);
 }
 .check-icon {
   fill: var(--cloud);
-} */
+}
 
 .privacy-link {
   color: var(--iris);
