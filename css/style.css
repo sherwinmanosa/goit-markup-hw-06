@@ -826,3 +826,7 @@ body {
 .user-comment:focus {
   border-color: var(--iris);
 }
+
+.modal-checkbox {
+  margin-bottom: 24px;
+}
