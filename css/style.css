@@ -863,9 +863,13 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.checkbox:checked + .ml-checkbox > .check-icon {
+/* .checkbox:checked + .ml-checkbox > .check-icon {
   background-color: var(--ocean);
 }
 .check-icon {
   fill: var(--cloud);
+} */
+
+.privacy-link {
+  color: var(--iris);
 }
