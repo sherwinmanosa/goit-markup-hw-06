@@ -808,6 +808,7 @@ body {
 
 .input-comment {
   margin-bottom: 16px;
+  margin-left: 8px;
 }
 .user-comment {
   width: 100%;
@@ -830,9 +831,10 @@ body {
 
 .modal-checkbox {
   margin-bottom: 24px;
+  margin-left: 16px;
 }
 
-.visually-hidden {
+.checkbox-visually-hidden {
   display: none;
 }
 
