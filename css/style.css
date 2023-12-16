@@ -854,9 +854,12 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 .checkbox:checked + .ml-checkbox > .checkbox-on {
   background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
 }
 
 .checkbox:focus + .ml-checkbox > .checkbox-on {
