@@ -120,7 +120,7 @@ body {
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.32px;
-  /* color: var(--ocean); */
+  color: var(--ocean);
   color: var(--navyblue);
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -130,6 +130,7 @@ body {
 }
 
 .active-nav {
+  position: relative;
   color: #404bbf;
 }
 
