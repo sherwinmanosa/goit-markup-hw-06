@@ -831,6 +831,10 @@ body {
   margin-bottom: 24px;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .modal-label {
   display: block;
   font-size: 12px;
@@ -851,9 +855,14 @@ body {
   justify-content: center;
   fill: transparent;
 }
-.checkbox:checked + .ml-checkbox > .check-icon {
+.checkbox:checked + .ml-checkbox > .checkbox-on {
   background-color: var(--ocean);
 }
+
+.checkbox:focus + .ml-checkbox > .checkbox-on {
+  outline: 1px solid rgba(46, 47, 66, 0.4);
+}
+
 .check-icon {
   fill: var(--cloud);
 }
